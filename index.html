@@ -1,0 +1,56 @@
+<!DOCTYPE HTML><!--基本框架-->
+<html>
+<head>
+<title>EL5312航班签派系统</title><!--网页标题-->
+<meta charset="utf-8" /><!--UTF-8编码,避免中文乱码-->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--视窗匹配,确保在任何终端下阅读都有良好的排版-->
+<link rel="stylesheet" href="css/main.css" />
+<!--引入CSS文件-->
+<script type="text/javascript" src="./js/js.js"></script>
+<!--引入JavaScript文件-->
+</head>
+<body>
+
+
+<header id="header">
+	<p>欸洛特航空</p>
+</header><!--页面header文字-->
+
+
+<section id="main">
+	<div class="inner"><!--创建div标签,存放主内容-->
+		<header>
+			<h1>EL5312</h1>
+		</header>
+		<p>起飞时间:每月20日晚八点整</p>
+		<p>起飞机场:ZUUU</p>
+		<p>到达机场:ZSNT</p>
+		<p>航路：ZUUU SID OGOMO W26 GAO V38 ENH B213 WHA R343 HFE W163 VEMEX W73 NOBEM V14 PIMOL G330 UNTAN STAR ZSNT</p>
+		<p>China RVSM建议高度：9500米(FL311)、10100米(FL331)、10700米(FL351)</p>
+		<p>航路里程 1666 千米</p>
+		<p>执飞飞行器：Boeing 737-800 WL</p>
+		<p>执飞飞行员：Capt.Liang_Ye CoPilot.Jane</p>
+		<p>简报室：13</p>
+		<p><form>
+		  <label for="textfield">使用航油:</label><!--输入框提示-->
+          <input type="text" name="V" id="V"><!--输入框主要部分-->
+          <!--提交JS的变量为"V"-->
+		  &nbsp;
+		  <br>
+		  <br>
+		  <input type="submit" onclick="run();"><!--按钮,提交给js运行-->
+		</form></p>
+		<p>声明<br>本页面仅飞行员可以使用。<a href="https://alexsebstian.github.io/fuelcompute/">航油查询地址</a><br>航油以千克为单位，还请保留整数输入</p><!--瞎扯些话-->
+	</div>
+</section>
+
+
+<footer id="footer">
+	<div class="copyright">Code by ElliotSebstian</div><!--版权声明处,这里我懒得搞太多了-->
+</footer>
+
+
+
+</body>
+</html>

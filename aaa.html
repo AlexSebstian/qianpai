@@ -1,0 +1,47 @@
+<!DOCTYPE HTML><!--基本框架-->
+<html>
+<head>
+<title>航油计算</title><!--网页标题-->
+<meta charset="utf-8" /><!--UTF-8编码,避免中文乱码-->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--视窗匹配,确保在任何终端下阅读都有良好的排版-->
+<link rel="stylesheet" href="css/main.css" />
+<!--引入CSS文件-->
+<script type="text/javascript" src="./js/js.js"></script>
+<!--引入JavaScript文件-->
+</head>
+<body>
+
+
+<header id="header">
+	<p>叶凉的个人博客</p>
+</header><!--页面header文字-->
+
+
+<section id="main">
+	<div class="inner"><!--创建div标签,存放主内容-->
+		<header>
+			<h1>航油计算</h1>
+		</header>
+		<p><form>
+		  <label for="textfield">请输入千米数:</label><!--输入框提示-->
+          <input type="text" name="V" id="V"><!--输入框主要部分-->
+          <!--提交JS的变量为"V"-->
+		  &nbsp;
+		  <br>
+		  <br>
+		  <input type="submit" onclick="run();"><!--按钮,提交给js运行-->
+		</form></p>
+		<p>声明<br>本页面计算机型为B737<br>计算方法为千米数/巡航速度（828km/h）*每小时耗油数量（2650kg）+起降油量(5000kg)+备用油量(30min 1325kg)<br>数据仅供参考使用,绝对禁止在现实中使用<br>若有建议还请QQ私聊苏惟澄：2507287078<br>感谢使用</p><!--瞎扯些话-->
+	</div>
+</section>
+
+
+<footer id="footer">
+	<div class="copyright">Code by ElliotSebstian</div><!--版权声明处,这里我懒得搞太多了-->
+</footer>
+
+
+
+</body>
+</html>
